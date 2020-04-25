@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "license": "MIT",
   "scripts": {
+    "postinstall": "ng build --aot -prod",
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
@@ -24,7 +25,8 @@
     "core-js": "^2.6.2",
     "rxjs": "^6.1.0",
     "tslib": "^1.9.0",
-    "zone.js": "^0.8.27"
+    "zone.js": "^0.8.27",
+    "@angular/cli": "1.2.3"
   },
   "devDependencies": {
     "@angular/cli": "^7.3.1",
